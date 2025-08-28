@@ -38,6 +38,19 @@ h1 {
     color: #ffd700;
 }
 
+/* Novo estilo para o hover */
+.star:hover {
+    color: #ffc107; /* Cor ligeiramente mais clara no hover */
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6); /* Efeito de blur dourado */
+    transform: scale(1.1); /* Um leve aumento para destacar */
+}
+
+/* Novo estilo para o hover, mas apenas nas estrelas "ativas" */
+.star.active:hover {
+    text-shadow: 0 0 12px rgba(255, 215, 0, 0.8); /* Blur mais intenso para estrelas ativas no hover */
+    transform: scale(1.15);
+}
+
 textarea {
     width: 90%;
     height: 100px;
