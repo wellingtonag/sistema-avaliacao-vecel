@@ -74,7 +74,7 @@ textarea {
 }
 
 #submit-btn:hover:not(:disabled) {
-    background-color: #3700b3;
+    background-color: #4b00b4;
 }
 
 #submit-btn:disabled {
